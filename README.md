@@ -1,5 +1,9 @@
 # Devote
 
+<p align="center">
+  <img src="https://github.com/tacettinkustu/Devote/assets/51737508/35650801-994d-40ab-8bcf-d0e9f0f003f8" alt="Description of the image" width="300">
+</p>
+
 This repository provides a comprehensive guide on integrating Core Data with the SwiftUI App Life Cycle. It covers various topics and features that will help you develop a robust and feature-rich SwiftUI app. Below are the key topics covered in this repository:
 
 1. **Integrating Core Data with SwiftUI App Life Cycle**: Learn how to seamlessly integrate Core Data into your SwiftUI app and manage the data life cycle effectively.
