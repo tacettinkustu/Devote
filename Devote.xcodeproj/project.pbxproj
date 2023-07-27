@@ -57,12 +57,14 @@
 		6CDEEEB22A72D7AE00DE1E35 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				6CDEEECB2A72DBF000DE1E35 /* Style */,
+				6CDEEECA2A72DBE100DE1E35 /* Utility */,
+				6CDEEEC92A72DBC500DE1E35 /* Extension */,
 				6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */,
-				6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */,
+				6CDEEEC82A72DBA400DE1E35 /* View */,
 				6CDEEEB72A72D7AE00DE1E35 /* Assets.xcassets */,
 				6CDEEEC62A72DB7400DE1E35 /* Sound */,
-				6CDEEEBC2A72D7AE00DE1E35 /* Persistence.swift */,
-				6CDEEEBE2A72D7AE00DE1E35 /* Devote.xcdatamodeld */,
+				6CDEEECC2A72DC2900DE1E35 /* Model */,
 				6CDEEEB92A72D7AE00DE1E35 /* Preview Content */,
 			);
 			path = Devote;
@@ -74,6 +76,44 @@
 				6CDEEEBA2A72D7AE00DE1E35 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CDEEEC82A72DBA400DE1E35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CDEEEC92A72DBC500DE1E35 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6CDEEECA2A72DBE100DE1E35 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6CDEEECB2A72DBF000DE1E35 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6CDEEECC2A72DC2900DE1E35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CDEEEBC2A72D7AE00DE1E35 /* Persistence.swift */,
+				6CDEEEBE2A72D7AE00DE1E35 /* Devote.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
