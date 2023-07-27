@@ -13,6 +13,7 @@
 		6CDEEEBB2A72D7AE00DE1E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDEEEBA2A72D7AE00DE1E35 /* Preview Assets.xcassets */; };
 		6CDEEEBD2A72D7AE00DE1E35 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEBC2A72D7AE00DE1E35 /* Persistence.swift */; };
 		6CDEEEC02A72D7AE00DE1E35 /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEBE2A72D7AE00DE1E35 /* Devote.xcdatamodeld */; };
+		6CDEEEC72A72DB7400DE1E35 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 6CDEEEC62A72DB7400DE1E35 /* Sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6CDEEEBA2A72D7AE00DE1E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CDEEEBC2A72D7AE00DE1E35 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6CDEEEBF2A72D7AE00DE1E35 /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		6CDEEEC62A72DB7400DE1E35 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */,
 				6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */,
 				6CDEEEB72A72D7AE00DE1E35 /* Assets.xcassets */,
+				6CDEEEC62A72DB7400DE1E35 /* Sound */,
 				6CDEEEBC2A72D7AE00DE1E35 /* Persistence.swift */,
 				6CDEEEBE2A72D7AE00DE1E35 /* Devote.xcdatamodeld */,
 				6CDEEEB92A72D7AE00DE1E35 /* Preview Content */,
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDEEEC72A72DB7400DE1E35 /* Sound in Resources */,
 				6CDEEEBB2A72D7AE00DE1E35 /* Preview Assets.xcassets in Resources */,
 				6CDEEEB82A72D7AE00DE1E35 /* Assets.xcassets in Resources */,
 			);
