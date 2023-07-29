@@ -30,13 +30,6 @@ We hope this repository helps you create a feature-rich SwiftUI app integrated w
 
 Happy coding! If you have any questions or suggestions, feel free to open an issue or contact us through the repository's communication channels.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
 ## Acknowledgments
 
 We would like to express our gratitude to all contributors and the SwiftUI and Core Data communities for their valuable insights and support in creating this repository.
-
----
-*Note: Please replace "LICENSE" in the License section with the actual filename of the license file you are using for your project.*
