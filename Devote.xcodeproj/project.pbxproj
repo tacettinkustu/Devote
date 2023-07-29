@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C073E0F2A7530440072A171 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C073E0D2A7530440072A171 /* Item+CoreDataClass.swift */; };
+		6C073E102A7530440072A171 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C073E0E2A7530440072A171 /* Item+CoreDataProperties.swift */; };
 		6CDEEEB42A72D7AE00DE1E35 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */; };
 		6CDEEEB62A72D7AE00DE1E35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */; };
 		6CDEEEB82A72D7AE00DE1E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB72A72D7AE00DE1E35 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C073E0D2A7530440072A171 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6C073E0E2A7530440072A171 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		6CDEEEB02A72D7AE00DE1E35 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		6CDEEEA72A72D7AD00DE1E35 = {
 			isa = PBXGroup;
 			children = (
+				6C073E0D2A7530440072A171 /* Item+CoreDataClass.swift */,
+				6C073E0E2A7530440072A171 /* Item+CoreDataProperties.swift */,
 				6CDEEEB22A72D7AE00DE1E35 /* Devote */,
 				6CDEEEB12A72D7AE00DE1E35 /* Products */,
 			);
@@ -189,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C073E102A7530440072A171 /* Item+CoreDataProperties.swift in Sources */,
+				6C073E0F2A7530440072A171 /* Item+CoreDataClass.swift in Sources */,
 				6CDEEEBD2A72D7AE00DE1E35 /* Persistence.swift in Sources */,
 				6CDEEEB62A72D7AE00DE1E35 /* ContentView.swift in Sources */,
 				6CDEEEC02A72D7AE00DE1E35 /* Devote.xcdatamodeld in Sources */,
