@@ -14,7 +14,7 @@ This repository provides a comprehensive guide on integrating Core Data with the
 
 4. **Developing a Custom Toggle Style and Checkbox**: Customize the appearance of toggles in your SwiftUI app and create a checkbox tailored to your design requirements.
 
-5. **CRUD Operations (Create, Read, Update, Delete) on Database Items**: Learn how to perform basic database operations to create, retrieve, update, and delete items stored in Core Data.
+5. **CRUD Operations on Database Items**: Learn how to perform basic database operations to create, retrieve, update, and delete items stored in Core Data.
 
 6. **Toggle Light and Dark Mode Appearances**: Implement light and dark mode appearances in your app, allowing users to switch between different color schemes based on their preferences.
 
@@ -25,8 +25,6 @@ This repository provides a comprehensive guide on integrating Core Data with the
 9. **Preview Setup for Testing Different Widget Sizes**: Set up the preview environment to test and visualize the appearance of your widgets in different sizes.
 
 10. **Creating Visual Effects with SwiftUI's Blur and Color Overlay Mode**: Enhance your app's user interface by adding visual effects like blur and color overlay using SwiftUI.
-
-We hope this repository helps you create a feature-rich SwiftUI app integrated with Core Data, making the most out of the latest iOS technologies. Feel free to explore the code, learn from the examples, and adapt the concepts to suit your specific app development needs.
 
 Happy coding! If you have any questions or suggestions, feel free to open an issue or contact us through the repository's communication channels.
 
