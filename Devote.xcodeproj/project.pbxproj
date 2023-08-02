@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C073E122A77F2350072A171 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C073E112A77F2350072A171 /* Constant.swift */; };
+		6C991AA32A7AA3BF001A985F /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C991AA22A7AA3BF001A985F /* HideKeyboardExtension.swift */; };
 		6CDEEEB42A72D7AE00DE1E35 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */; };
 		6CDEEEB62A72D7AE00DE1E35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */; };
 		6CDEEEB82A72D7AE00DE1E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDEEEB72A72D7AE00DE1E35 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6C073E112A77F2350072A171 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6C991AA22A7AA3BF001A985F /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		6CDEEEB02A72D7AE00DE1E35 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDEEEB32A72D7AE00DE1E35 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		6CDEEEB52A72D7AE00DE1E35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		6CDEEEC92A72DBC500DE1E35 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				6C991AA22A7AA3BF001A985F /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				6CDEEEBD2A72D7AE00DE1E35 /* Persistence.swift in Sources */,
 				6CDEEEB62A72D7AE00DE1E35 /* ContentView.swift in Sources */,
+				6C991AA32A7AA3BF001A985F /* HideKeyboardExtension.swift in Sources */,
 				6C073E122A77F2350072A171 /* Constant.swift in Sources */,
 				6CDEEEC02A72D7AE00DE1E35 /* Devote.xcdatamodeld in Sources */,
 				6CDEEEB42A72D7AE00DE1E35 /* DevoteApp.swift in Sources */,
