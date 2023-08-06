@@ -63,8 +63,6 @@ struct ContentView: View {
                         Button(action: {
                             // TOGGLE APPEARANCE
                             isDarkMode.toggle()
-                            playSound(sound: "sound-tap", type: "mp3")
-                            feedback.notificationOccurred(.success)
                         }, label: {
                             Image(systemName: isDarkMode ? "moon.circle.fill" :  "moon.circle")
                                 .resizable()
@@ -82,8 +80,6 @@ struct ContentView: View {
                     
                     Button(action: {
                         showNewTaskItem = true
-                        playSound(sound: "sound-ding", type: "mp3")
-                        feedback.notificationOccurred(.success)
                     }, label: {
                         Image(systemName: "plus.circle")
                             .font(.system(size: 30, weight: .semibold, design: .rounded))
@@ -98,23 +94,9 @@ struct ContentView: View {
                             .clipShape(Capsule())
                     )
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 8, x: 0.0, y: 4.0)
-                    
-                    // MARK: - TASKS
-                    
-                    List {
-                        ForEach(items) { item in
-                            ListRowItemView(item: item)
-                        }
-                        .onDelete(perform: deleteItems)
-                    } //: LIST
-                    // MARK: - LET'S FIX THE LIST STYLE
-                    // .listStyle(InsetGroupedListStyle()) // Buggy
                     .cornerRadius(20) // 1.
                     .listStyle(.inset) // 2.
                     .padding(20) // 3.
-                    // .scrollContentBackground(Color.red) // iOS 16
-                    // .scrollContentBackground(Color.clear) // iOS 16
-                    // .scrollContentBackground(.hidden) // iOS 16
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
                     .padding(.vertical, 0)
                     .frame(maxWidth: 640)
@@ -122,22 +104,6 @@ struct ContentView: View {
                 .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
                 .animation(.easeOut(duration: 0.5))
                 .transition(.move(edge: .bottom))
-                
-                // MARK: - NEW TASK ITEM
-                
-                if showNewTaskItem {
-                    BlankView(
-                        backgroundColor: isDarkMode ? Color.black : Color.gray,
-                        backgroundOpacity: isDarkMode ? 0.3 : 0.5)
-                    .onTapGesture {
-                        withAnimation() {
-                            showNewTaskItem = false
-                        }
-                    }
-                    
-                    NewTaskItemView(isShowing: $showNewTaskItem)
-                }
-                
             } //: ZSTACK
             .onAppear() {
                 UITableView.appearance().backgroundColor = UIColor.clear // DOES'NT WORK ANYMORE
@@ -155,8 +121,6 @@ struct ContentView: View {
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-
-// MARK: - PREVIEW
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
