@@ -26,8 +26,8 @@ This repository provides a comprehensive guide on integrating Core Data with the
 
 10. **Creating Visual Effects with SwiftUI's Blur and Color Overlay Mode**: Enhance your app's user interface by adding visual effects like blur and color overlay using SwiftUI.
 
-Happy coding! If you have any questions or suggestions, feel free to open an issue or contact us through the repository's communication channels.
+Happy coding! If you have any questions or suggestions, feel free to open an issue or contact me through the repository's communication channels.
 
 ## Acknowledgments
 
-We would like to express our gratitude to all contributors and the SwiftUI and Core Data communities for their valuable insights and support in creating this repository.
+We would like to express my gratitude to all contributors and the SwiftUI and Core Data communities for their valuable insights and support in creating this repository.
