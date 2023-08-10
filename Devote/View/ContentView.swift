@@ -104,6 +104,19 @@ struct ContentView: View {
                 .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
                 .animation(.easeOut(duration: 0.5))
                 .transition(.move(edge: .bottom))
+
+                if showNewTaskItem {
+                  BlankView(
+                    backgroundColor: isDarkMode ? Color.black : Color.gray,
+                    backgroundOpacity: isDarkMode ? 0.3 : 0.5)
+                    .onTapGesture {
+                      withAnimation() {
+                        showNewTaskItem = false
+                      }
+                    }
+                  
+                  NewTaskItemView(isShowing: $showNewTaskItem)
+                }
             } //: ZSTACK
             .onAppear() {
                 UITableView.appearance().backgroundColor = UIColor.clear // DOES'NT WORK ANYMORE
