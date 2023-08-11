@@ -88,12 +88,12 @@ struct ContentView: View {
                             .clipShape(Capsule())
                     )
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.25), radius: 8, x: 0.0, y: 4.0)
-                    .cornerRadius(20) // 1.
-                    .listStyle(.inset) // 2.
-                    .padding(20) // 3.
-                    .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
-                    .padding(.vertical, 0)
-                    .frame(maxWidth: 640)
+                    List {
+                        ForEach(items) { item in
+                            ListRowItemView(item: item)
+                        }
+                        .onDelete(perform: deleteItems)
+                    } //: LIST
                 } //: VSTACK
                 .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
                 .animation(.easeOut(duration: 0.5))
