@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct NewTaskItemView: View {
-    
+struct NewTaskItemView: View {    
     @AppStorage("isDarkMode") private var isDarkMode: Bool = false
     @Environment(\.managedObjectContext) private var viewContext
     @State private var task: String = ""
@@ -87,8 +86,9 @@ struct NewTaskItemView: View {
 struct NewTaskItemView_Previews: PreviewProvider {
     static var previews: some View {
         NewTaskItemView(isShowing: .constant(true))
-            .previewDevice("iPhone 13")
+            .previewDevice("iPhone 14")
             .background(Color.gray.edgesIgnoringSafeArea(.all))
     }
 }
+
 

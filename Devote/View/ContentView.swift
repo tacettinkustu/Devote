@@ -42,7 +42,6 @@ struct ContentView: View {
             ZStack {
                 VStack {
                     HStack(spacing: 10) {
-                        // TITLE
                         Text("Devote")
                             .font(.system(.largeTitle, design: .rounded))
                             .fontWeight(.heavy)
@@ -50,7 +49,6 @@ struct ContentView: View {
                         
                         Spacer()
                         
-                        // EDIT BUTTON
                         EditButton()
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
                             .padding(.horizontal, 10)
@@ -59,9 +57,7 @@ struct ContentView: View {
                                 Capsule().stroke(Color.white, lineWidth: 2)
                             )
                         
-                        // APPEARANCE BUTTON
                         Button(action: {
-                            // TOGGLE APPEARANCE
                             isDarkMode.toggle()
                         }, label: {
                             Image(systemName: isDarkMode ? "moon.circle.fill" :  "moon.circle")
@@ -75,7 +71,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     
                     Spacer(minLength: 80)
-                                        
+                    
                     Button(action: {
                         showNewTaskItem = true
                     }, label: {
@@ -102,18 +98,18 @@ struct ContentView: View {
                 .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
                 .animation(.easeOut(duration: 0.5))
                 .transition(.move(edge: .bottom))
-
+                
                 if showNewTaskItem {
-                  BlankView(
-                    backgroundColor: isDarkMode ? Color.black : Color.gray,
-                    backgroundOpacity: isDarkMode ? 0.3 : 0.5)
+                    BlankView(
+                        backgroundColor: isDarkMode ? Color.black : Color.gray,
+                        backgroundOpacity: isDarkMode ? 0.3 : 0.5)
                     .onTapGesture {
-                      withAnimation() {
-                        showNewTaskItem = false
-                      }
+                        withAnimation() {
+                            showNewTaskItem = false
+                        }
                     }
-                  
-                  NewTaskItemView(isShowing: $showNewTaskItem)
+                    
+                    NewTaskItemView(isShowing: $showNewTaskItem)
                 }
             } //: ZSTACK
             .onAppear() {
@@ -136,6 +132,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-            .previewDevice("iPhone 13")
+            .previewDevice("iPhone 14")
     }
 }
