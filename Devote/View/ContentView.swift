@@ -75,9 +75,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     
                     Spacer(minLength: 80)
-                    
-                    // MARK: - NEW TASK BUTTON
-                    
+                                        
                     Button(action: {
                         showNewTaskItem = true
                     }, label: {
